@@ -1,0 +1,44 @@
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 2.5px;
+  }
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.card {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    background-color: lightblue;
+  }
+  .card {
+
+    background-color: rgb(255, 255, 255);
+    transition: transform .1s; /* Animation */
+  }
+  .card:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .center {
+margin-left: 11%;
+  }
+  .btn
+  {
+    background-color: #ff1d1d;
+  }
+  img{
+    height:5.67cm;
+  }
+  .card-text
+  {
+    height: 100px;
+   overflow: scroll;
+  }
+  body
+  {
+    background-color: rgb(237, 237, 237);
+  }
